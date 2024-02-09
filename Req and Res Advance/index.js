@@ -14,7 +14,7 @@ const cb2 = (req, res, next) => {
     next()
 }
 
-app.get("/", [cb1, cb2], (req, res, next) => { // I gave callback functions with array and jjust another one
+app.get("/", [cb1, cb2], (req, res, next) => { // I gave callback functions with array and just another one
     console.log("Callback func 3")
     next()
 }, (req, res) => {
