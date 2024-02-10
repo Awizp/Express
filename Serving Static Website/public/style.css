@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #020D19;
+    color: #FFF;
+}
+
+button {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #FFF;
+    color: #020D19;
+    font-size: 20px;
+    cursor: pointer;
+}
